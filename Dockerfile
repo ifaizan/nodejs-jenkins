@@ -12,8 +12,6 @@ WORKDIR /var/www/node/
 
 COPY --chown=node:node  . .
 
-#CMD ["node", "index.js"]
-
 RUN chown -R node:node /var/www/node/ /install/
 
 EXPOSE 3000
