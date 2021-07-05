@@ -1,3 +1,4 @@
+// Checking the pipeline functionality
 var express = require('express');
 var app = express();
 
